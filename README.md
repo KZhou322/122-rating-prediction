@@ -11,3 +11,4 @@ cluster_labels.npy
 centroids.npy
 ids.npy
 where the cluster labels and ids files indicate which user ids belong to which cluster. The centroids file indicates the centroids of the three clusters generated.
+The other unused models and their relevant files are in the folder "unused models"
