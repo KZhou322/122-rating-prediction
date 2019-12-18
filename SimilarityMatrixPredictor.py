@@ -77,18 +77,9 @@ def Rand(start, end, num):
 
 #print(errorcheck(Rand(0,10,100),ratings[0]))
 # print(ratings.shape)
-# with open('predictedProduct.csv','w', newline='') as csvfile:
-#     writer = csv.writer(csvfile, delimiter=',')
-#     for x in range(3000):
+ with open('predictedProduct.csv','w', newline='') as csvfile:
+     writer = csv.writer(csvfile, delimiter=',')
+     for x in range(3000):
 #         print(x)
-#         writer.writerow(funct(x))
+         writer.writerow(funct(x))
 
-# countsto=[]
-# for j in range(100):
-#     count=0
-#     for i in range(3000):
-#         if ratings[i][j]==--1:
-#             count+=1
-#     countsto.append(count)
-# print(countsto)
-# print(sum(countsto))
