@@ -5,7 +5,7 @@ All predicitons are in the all_predictions.csv file, and the predictions for jus
 The code is separated into sections for Clustering, Building the Model, Predicting, and Outputting Results.
 There are a number of warnings that come up while running the cells. These are all because of depracated methods with the use of tensorflow 2.0.
 
-### cluster.py
+### unused models/cluster.py
 This script should be run in a folder containing the data file 'user_history.csv' using the command 'python cluster.py'. It will cluster the website history data and generate two graphs, which the user can choose to save, and will automatically create the following files:
 cluster_labels.npy
 centroids.npy
